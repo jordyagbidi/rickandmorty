@@ -1,0 +1,8 @@
+/* DEV: JORDY AGBIDI */
+/* Importamos todos los estilos de ese modo en nuestro html solo tenemos que llamar a index.css */
+@import url(/css/style.css);
+@import url(/css/nav.css);
+@import url(/css/swipper.css);
+@import url(/css/characterCard.css);
+
+

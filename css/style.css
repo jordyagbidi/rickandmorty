@@ -1,0 +1,115 @@
+/* DEV: JORDY AGBIDI */
+/* Definimos el estilo general de la pagina */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../img/galaxy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.coverbody{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.50);
+    z-index: 1;
+}
+
+
+
+header {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    flex-direction: column;
+}
+
+header img{
+    z-index: inherit;
+    width: auto;
+    height: 13vh;
+    margin: 1.5rem;
+    animation: float2 4s ease-in-out infinite;
+}
+
+section{
+    width: 100%;
+    height: 60vh;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    
+}
+
+footer img{
+    width: 12%;
+    height: 12%;
+    animation: float 6s ease-in-out infinite;
+    z-index: inherit;
+}
+
+@media (max-width: 700px) {
+    footer img{
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media (max-height: 580px) {
+    footer{ 
+        position: fixed;
+        bottom: 0px;
+    }
+}
+
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px) rotate(0deg);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-20px) rotate(10deg);
+       
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px) rotate(0deg);
+	}
+}
+
+@keyframes float2 {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform:  scale(1);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: scale(1.1);
+       
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: scale(1);
+	}
+}
+
+/* header,nav,section{
+    z-index: 5;
+} */
+

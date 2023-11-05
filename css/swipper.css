@@ -1,0 +1,40 @@
+/* DEMO LIB ADAPTED - MOD: MODIFICACIONES*/
+/* Estilo swipper */
+  swiper-container {
+    width: 100%;
+    height: 90%; /*MOD*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  swiper-slide {
+    margin-top: 3px;
+    background-position: center;
+    background-size: cover;
+    width: 300px; /*MOD*/
+    height: 300px; /*MOD*/
+    max-width:300px; /*MOD*/
+    max-height: 300px; /*MOD*/
+    border: 5px solid #ffff00 ; /*MOD*/
+    box-shadow: 0px 2px 5px 2px /*MOD*/#42b3cada ; /*MOD*/
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.243); /*MOD*/
+   
+  }
+
+  /*MOD*/
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 9px;
+  }
+
+  /*MOD*/
+
+  @media (max-height: 580px) {
+    swiper-container {
+      width: 100%;
+      height: 150%
+    }
+
+  }

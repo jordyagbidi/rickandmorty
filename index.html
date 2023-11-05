@@ -1,0 +1,63 @@
+<!-- DEV: JORDY AGBIDI -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Author" content="Jordy Agbidi">
+  <title>Rick & Morty</title>
+  <link rel="stylesheet" href="css/index.css">
+  
+
+  <!-- Swiperjs CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div class="coverbody"></div>
+  <header>
+    <!--Cabecera de la web-->
+    <img src="img/Rick_and_Morty.png">
+
+    <nav>
+      <!--Buscador de la web-->
+      <form action="">
+        <input class="formtext" id="searchBox" placeholder="Troba un personatge...">
+        
+      </form>
+    </nav>
+
+  </header>
+
+  <section>
+    <!--Lista de personajes-->
+    <!-- Swiper SLIDER -->
+    <!-- CONTENEDOR POR DEFECTO  -->
+    <swiper-container title="Mantenir Clic + Arrossegar" class="mySwiper" id="cardsContainer" pagination="false" effect="coverflow" grab-cursor="true"
+      centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0"
+      coverflow-effect-depth="100" coverflow-effect-modifier="1"
+      coverflow-effect-slide-shadows="true"></swiper-container>
+
+    <!-- CONTENEDOR DE BUSQUEDAS -->
+    <swiper-container class="mySwiper" id="cardsContainerSearch" title="Mantenir Clic + Arrossegar" pagination="false" effect="coverflow"
+      grab-cursor="true" centered-slides="true" slides-per-view="auto" coverflow-effect-rotate="50"
+      coverflow-effect-stretch="0" coverflow-effect-depth="100" coverflow-effect-modifier="1"
+      coverflow-effect-slide-shadows="true"></swiper-container>
+  </section>
+
+  <footer>
+    <img src="img/nave.webp">
+  </footer>
+
+  
+  <!-- Swiper JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <!--Modular script-->
+  <script src="js/index.js" type="module"></script>
+
+
+  </script>
+</body>
+
+</html>

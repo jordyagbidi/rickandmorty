@@ -1,0 +1,26 @@
+/* DEV: JORDY AGBIDI */
+/* Definimos el estilo del navegador (buscador) */
+nav{
+    z-index: inherit;
+    margin: 0.1rem;
+}
+
+.formtext{
+    width: 55vw;
+    height: 2.2rem;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #42b3ca8b;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #ffff00;
+
+}
+
+
+.formsubmit:hover{
+    background-color: #42b3ca;
+    border: 2px solid #ffff00;
+    color: #ffff00;
+}

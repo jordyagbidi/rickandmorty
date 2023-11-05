@@ -1,0 +1,20 @@
+//problema que queremos resolver
+/* 
+
+
+//DISEÑO DE LAS CARTAS DE PERSONAJES (ESTRUCTURA HTML)
+ <!-- Estructura de la caja -->
+      <!-- <swiper-slide id="sliderbox">
+        <div class="nameBox">
+          <p>Name</p>
+          <img src="img/alive.png">
+        </div>
+
+        <img src="" class="imgBox">
+
+        <p class="boxInfo"><img src="img/gender.png"> <span>Gender</span></p>
+        <p class="boxInfo"><img src="img/especie.png"> Especies</p>
+        <p class="boxInfo"><img src="img/location.png"> Location</p>
+
+</swiper-slide> -->
+
