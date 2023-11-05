@@ -1,5 +1,3 @@
-//problema que queremos resolver
-/* 
 
 
 //DISEÑO DE LAS CARTAS DE PERSONAJES (ESTRUCTURA HTML)
